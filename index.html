@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Translator</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Morse Translator</h1>
+        </header>
+
+        <section>
+            <form class='form' id='inputEnglish'>
+                <div><input type="text" placeholder="Enter Text Here" id="inputBoxEnglish"></div>
+                <div><button type="submit" id="translateEnglishButton">Translate</button></div>
+                <div id="morseOutputBox"><input type="text" id="outputMorse"></div>
+            </form>
+        </section>
+
+<br><br><br>
+
+        <section>
+            <form class='form' id='inputMorse'>
+                <div><input type="text" placeholder="Enter Morse Code" id="inputBoxMorse"></div>
+                <div><button id="translateMorseButton">Translate</button></div>
+                <div id="englishOutput"><input type="text" id="outputEnglish"></div>      
+            </form>
+        </section>
+
+        <script type="module" src="./dictionary.js"></script>
+        <script type="module" src="./dom.js"></script>
+        <script type="module" src="./functions.js"></script>
+
+    </main>
+</body>
+</html>
