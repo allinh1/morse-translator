@@ -4,3 +4,4 @@ A morse code translator which can convert plain text into encrypted form as mors
 
 This project was made with HTML5, Javascript and CSS
 
+Viewable - https://allinh1.github.io/morse-translator/
