@@ -2,4 +2,6 @@
 
 Example of :
 
-DOM Manipulatoions and using Functions 
+DOM Manipulatoions and using Functions.
+
+Reduce example.
